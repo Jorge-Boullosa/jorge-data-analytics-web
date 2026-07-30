@@ -1,57 +1,69 @@
-# Jorge Boullosa | Web de análisis de datos
+# Jorge Boullosa | Informes, dashboards y análisis de datos
 
-Web sencilla y editable para presentar servicios de análisis de datos, informes, dashboards e indicadores.
+Web personal estática para presentar servicios de análisis de datos, reporting, dashboards e indicadores orientados a pequeñas empresas, entidades y proyectos.
 
-## Archivos
+## Objetivo
 
-- `index.html`: contenido de la web.
-- `styles.css`: diseño visual.
+Esta web funciona como carta de presentación profesional y como pequeño portfolio. El objetivo es mostrar de forma clara qué servicios puedo ofrecer, qué herramientas manejo y cómo contactar conmigo.
 
-## Cómo editarla
+## Secciones
 
-Puedes abrir `index.html` con cualquier editor de texto, por ejemplo Visual Studio Code, Bloc de notas o el editor de GitHub.
+- **Inicio:** resumen de la propuesta de valor.
+- **Servicios:** limpieza de datos, análisis, informes, dashboards, KPIs y encuestas.
+- **Cómo trabajo:** explicación sencilla del proceso de trabajo.
+- **Portfolio:** proyectos de análisis de datos publicados en GitHub.
+- **Sobre mí:** breve presentación académica y técnica.
+- **Contacto:** email, LinkedIn y GitHub.
 
-Partes principales que puedes cambiar:
+## Tecnologías utilizadas
 
-- Título principal: busca `<h1>`.
-- Servicios: busca la sección `id="servicios"`.
-- Proyectos: busca la sección `id="portfolio"`.
-- Sobre mí: busca la sección `id="sobre-mi"`.
-- Contacto: busca la sección `id="contacto"`.
+- HTML5
+- CSS3
+- JavaScript básico para el menú responsive
+- Diseño responsive para móvil, tablet y escritorio
 
-## Cómo añadir una foto
+## Estructura del repositorio
 
-1. Crea una carpeta llamada `img`.
-2. Mete dentro una foto, por ejemplo `foto-jorge.jpg`.
-3. En `index.html`, sustituye este bloque:
-
-```html
-<div class="about-placeholder">
-  <span>Aquí puedes añadir tu foto</span>
-</div>
+```text
+.
+├── index.html
+├── styles.css
+├── LICENSE
+└── README.md
 ```
 
-por este:
+## Cómo editar la web
 
-```html
-<img class="about-photo" src="img/foto-jorge.jpg" alt="Foto de Jorge Boullosa">
-```
+El contenido principal está en `index.html`.
 
-Después añade al final de `styles.css`:
+Para cambiar textos, busca las secciones por su identificador:
 
-```css
-.about-photo {
-  width: 100%;
-  border-radius: 24px;
-  object-fit: cover;
-  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.10);
-}
-```
+- `id="inicio"`
+- `id="servicios"`
+- `id="metodo"`
+- `id="portfolio"`
+- `id="sobre-mi"`
+- `id="contacto"`
+
+El diseño visual está en `styles.css`. Desde ahí se pueden cambiar colores, tipografías, tamaños, espaciados y distribución de las secciones.
 
 ## Cómo publicarla en GitHub Pages
 
-1. Crea un repositorio nuevo en GitHub.
-2. Sube `index.html` y `styles.css`.
-3. Entra en Settings → Pages.
-4. En Branch, selecciona `main` y carpeta `/root`.
-5. Guarda y GitHub te dará una URL pública.
+1. Crear un repositorio nuevo en GitHub.
+2. Subir los archivos `index.html`, `styles.css`, `README.md` y `LICENSE`.
+3. Entrar en **Settings**.
+4. Ir a **Pages**.
+5. En **Branch**, seleccionar `main` y carpeta `/root`.
+6. Guardar los cambios.
+7. GitHub generará una URL pública de la web en unos minutos.
+
+## Autor
+
+**Jorge Boullosa Conde**  
+GitHub: [Jorge-Boullosa](https://github.com/Jorge-Boullosa)  
+LinkedIn: [jorge-boullosa-conde-a114b5413](https://www.linkedin.com/in/jorge-boullosa-conde-a114b5413/)  
+Email: [jorgeboullosaconde@gmail.com](mailto:jorgeboullosaconde@gmail.com)
+
+## Licencia
+
+Este proyecto está publicado bajo licencia MIT.
