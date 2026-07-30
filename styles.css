@@ -295,7 +295,7 @@ h3 {
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 18px;
 }
 
@@ -325,26 +325,8 @@ h3 {
 }
 
 .about-grid {
-  display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: 48px;
-  align-items: center;
-}
-
-.about-placeholder {
-  min-height: 420px;
-  border-radius: var(--radius);
-  background:
-    linear-gradient(145deg, rgba(24, 78, 119, 0.14), rgba(82, 182, 154, 0.20)),
-    var(--surface-soft);
-  border: 1px dashed rgba(24, 78, 119, 0.35);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--accent);
-  font-weight: 800;
-  text-align: center;
-  padding: 24px;
+  max-width: 880px;
+  margin: 0 auto;
 }
 
 .tools {
@@ -475,9 +457,6 @@ h3 {
     padding: 28px;
   }
 
-  .about-placeholder {
-    min-height: 260px;
-  }
 
   .btn {
     width: 100%;
